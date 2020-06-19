@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1542462073 source:e:\informatica\fisiere2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1542462365 source:e:\informatica\fisiere - char\main.c
+	<stdio.h>
+	<stdlib.h>
+

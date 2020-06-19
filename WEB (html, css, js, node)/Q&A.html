@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Q&A</title>
+        <style>
+            #intrebare, #inputuri{
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="start" onclick="myFunction()">START</button>
+
+        <p id="intrebare">Care este aria cercului?</p>
+
+        <div id="inputuri">
+            <input type="radio" name="a" id="varianta1" value="r1"> raza la patrat<br>
+            <input type="radio" name="a" id="varianta2" value="r2"> raza la a treia<br>
+            <input type="radio" name="a" id="varianta3" value="r3"> pi er patrat<br>
+        </div>
+
+        <!-- <p id="raspuns">Raspunsul dumneavoastra: <input type="text" id="rasp" value=""><br></p> -->
+        
+        <script>
+            function myFunction() {
+                document.getElementById("intrebare").style.visibility = "visible";
+                document.getElementById("inputuri").style.visibility = "visible";
+                var x;
+                document.getElementById("inputuri").onclick = function(){
+                    if(document.getElementById("varianta1").checked == true)
+                        x = document.getElementById("varianta1").value;
+                    if(document.getElementById("varianta2").checked == true)
+                        x = document.getElementById("varianta2").value;
+                    if(document.getElementById("varianta3").checked == true)
+                        x = document.getElementById("varianta3").value;
+                }
+                setTimeout(function(){
+                    if(x == "r3")
+                        alert("RASPUNS CORECT");
+                    else
+                        alert("RASPUNS GRESIT");
+                }, 1000);
+                
+            }
+        </script>
+
+
+    </body>
+</html>

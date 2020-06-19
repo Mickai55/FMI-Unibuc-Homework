@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558887472 source:e:\informatica\test poo 2015\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

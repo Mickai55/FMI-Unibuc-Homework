@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540147890 source:e:\informatica\biti4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

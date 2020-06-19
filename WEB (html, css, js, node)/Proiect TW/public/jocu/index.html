@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Circle Invaders</title>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+    <script type="text/javascript" src="flower.js"></script>
+    <script type="text/javascript" src="drop.js"></script>
+    <script type="text/javascript" src="ship.js"></script>
+    <script type="text/javascript" src="text.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+    <script type="text/javascript" src="afis_scor.js"></script>
+
+    
+    <style type="text/css">
+      
+      #preia_date {
+        visibility: hidden;
+      }
+
+      button {
+        visibility: visible;
+        position: relative;
+        top: 470px;
+        left: 200px;
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 4px 8px;
+        text-align: center;
+        font-size: 12px;
+        margin: 4px 2px;
+        opacity: 1;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      button:hover {opacity: 0.5}
+
+      #afisare_scor {
+        position: relative;
+        top: 500px;
+        left: 20px;
+      }
+      
+      p{
+        position: relative;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+	      text-shadow: .5px .5px black;
+        color:rgb(12, 143, 0);
+      }
+
+    </style> 
+
+  </head>
+
+  <body>
+    <!--iframe-ul asta este pentru a nu se reincarca toata pagina(jocul) atunci cand se termina jocul-->
+    <iframe width="0" height="0" name="dummyframe" style="display:none" id="dummyframe"></iframe>
+    <form method="POST" action="/scor" id="preia_date" target="dummyframe">
+      <input type="hidden" name="scor_jucator" id="hiddenscor">
+      <button id="odata2" type="submit" onclick = "apasa2()">Submit scor</button>
+      <button id="odata" type="submit" onclick = "apasa()">Afisare HighScore</button>
+    </form>
+    <p>
+      <!-- aici se va afisa topul -->
+    </p>
+
+  </body>
+</html>

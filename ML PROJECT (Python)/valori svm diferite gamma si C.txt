@@ -1,0 +1,78 @@
+n_mfcc = 128
+res_type='kaiser_fast'
+
+NR_TRAIN = 8000
+NR_VALIDATION = 1000
+
+-----------------------------------------------------------------------
+
+gamma= 0.0001 C= 1
+0.703
+gamma= 0.0001 C= 51
+0.771
+gamma= 0.0001 C= 101
+0.777
+gamma= 0.0001 C= 151
+0.781
+gamma= 0.0001 C= 201
+0.78
+gamma= 0.0001 C= 251
+0.78
+
+gamma=’scale’ C= 1401
+0.776
+gamma=’scale’ C= 1451
+0.772
+gamma=’scale’ C= 1501
+0.772
+gamma=’scale’ C= 1551
+0.771
+gamma=’scale’ C= 1601
+0.772
+gamma=’scale’ C= 1651
+0.771
+gamma=’scale’ C= 1701
+0.77
+gamma=’scale’ C= 1751
+0.77
+gamma=’scale’ C= 2601
+0.776
+gamma=’scale’ C= 2651
+0.775
+
+
+gamma=’scale’ C= 6001
+0.778
+gamma=’scale’ C= 6501
+0.779
+gamma=’scale’ C= 7001
+0.777
+gamma=’scale’ C= 7501
+0.778
+gamma=’scale’ C= 8501
+0.782
+gamma=’scale’ C= 9001
+0.783
+gamma=’scale’ C= 9501
+0.783
+gamma=’scale’ C= 10001
+0.784
+
+gamma=’scale’ C= 20000
+0.784
+gamma=’scale’ C= 30000
+0.789
+gamma=’scale’ C= 40000
+0.787
+gamma=’scale’ C= 50000
+0.791
+gamma=’scale’ C= 60000
+0.79
+gamma=’scale’ C= 70000
+0.79
+gamma=’scale’ C= 80000
+0.796
+gamma=’scale’ C= 90000
+0.792
+gamma=’scale’ C= 100000
+0.792

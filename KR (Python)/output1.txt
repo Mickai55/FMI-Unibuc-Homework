@@ -1,0 +1,2 @@
+Broscuta se afla pe frunza initiala, id1(0, 0), Greutate Broscuta: 1000.
+Broscuta a sarit direct la mal!

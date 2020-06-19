@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1558775002 source:e:\informatica\colocviu\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1558777447 source:e:\informatica\131_2_voicamihai p1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

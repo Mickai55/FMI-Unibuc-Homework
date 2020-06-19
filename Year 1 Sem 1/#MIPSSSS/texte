@@ -1,0 +1,26 @@
+.data
+n: .word 4
+m: .word 5
+egalText: .asciiz "Egale"
+inegalText: .asciiz "Inegale"
+.text
+
+	lw $t0,n
+	lw $t1,m
+	
+	beq $t0,$t1,egale
+	j inegale
+	
+	
+egale:
+	la $a0, egalText
+	li $v0,4
+	syscall
+	j final
+inegale:
+	la $a0, inegalText
+	li $v0,4
+	syscall
+final:
+	li $v0,10
+	syscall

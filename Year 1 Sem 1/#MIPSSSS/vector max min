@@ -1,0 +1,80 @@
+.data
+space: .asciiz "\n"
+X: .word 31, 17, 92, 46, 172 	
+N: .word 5	
+egalText: .asciiz "Egale"
+inegalText: .asciiz "Inegale"				
+
+.text
+main:   
+	la $a0, X       #$a0 = adresa lui X
+    	lw $a1, N       #$a1=5  --\ numar elemente
+    	
+    	li $t2, 0	#max = 0
+    	li $t3, 10000	#min = 100
+    	
+    	jal citireVector  
+    	li $v0, 10      #exit program   
+    	syscall 
+    	
+citireVector:
+   	li $t0, 0       		
+	li $t1, 0       		
+    
+loop:    
+    	bge $t0, $a1, MinMax	#if  $t0 >= $a1 goto final
+    	lw $a0, X($t1) 		#$a0 = X(i)
+    
+   	 blt $a0, $t3, new_min	#if X(i) < min
+   	 j check_max
+   	 new_min: move $t3, $a0		#min = X(i)
+ 	 j update_counter
+    
+   	 check_max:
+   	 bgt $a0, $t2, new_max	#if X(i) > max
+   	 j update_counter
+    
+    	new_max: move $t2, $a0		#max = X(i)
+    
+   	 update_counter:
+   	 addi $t1, $t1, 4    	#se muta adresa pointerului
+   	 addi $t0, $t0, 1    	#counter ++
+   	 b loop       		
+    
+MinMax:  
+	li $v0, 1		#integer print
+	move $a0, $t3		#print min
+	syscall			
+	
+	la $a0, space   	#afiseaza spatiu:  " "
+    	li $v0, 4       	#print string               
+    	syscall
+	
+	li $v0, 1		#print
+	move $a0, $t2		#print max
+	syscall			
+
+	la $a0, space   	#afiseaza spatiu:  " "
+    	li $v0, 4       	#print string               
+    	syscall
+    	
+    	# Afisare daca min si max sunt egale sau inegale
+    	
+    	beq $t2,$t3,egale
+	bne $t2,$t3,inegale
+	
+egale:
+	la $a0, egalText
+	li $v0,4
+	syscall
+	j final
+	
+inegale:
+	la $a0, inegalText
+	li $v0,4
+	syscall
+	j final
+	
+final:
+    	li $v0, 10
+    	syscall      		#return

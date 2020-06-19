@@ -1,0 +1,2 @@
+Broscuta se afla pe frunza initiala, id1(0, 0), Greutate Broscuta: 7.
+Broscuta s-a innecat!!

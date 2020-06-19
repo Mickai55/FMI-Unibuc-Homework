@@ -1,0 +1,65 @@
+body{
+		background-color: #EEEEEE;
+		background-image: url('ddd.png');
+		background-repeat: repeat-x;
+	}
+	
+h1{
+	text-align: center;
+	color: white;
+	font-size: 80px;
+}
+
+.c3{
+	background-color: red;
+}
+
+.c4{
+	position: relative;
+	top:25px;
+	left:50px;
+}
+
+.c1{
+	position: absolute;
+	top: 25px;
+	left: 1350px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+nav{
+	float: left;
+	width: 10%;
+	height: 500px;
+	background-color: yellow;
+}
+
+nav ul{
+	visibility: hidden;
+}
+
+nav:hover ul{
+	visibility: visible;
+}
+
+.c2{
+	background-color: rgb(187, 226, 109);
+	width: 100%;
+	height: 500px;
+}	
+
+header{
+	background-color: orange;
+	padding: 30px;
+}
+
+footer{
+	background-color: blue;
+	padding: 24px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,21 @@
+4
+0 1 2 3
+2
+a b
+3
+Z A B
+0
+Z
+6
+0 a Z 0 AAAZ
+0 a A 0 AAAA
+0 b A 1 AA
+1 ^ A 2 ^
+2 b A 1 ^
+1 ^ Z 3 ^
+
+4
+abbb
+aaabbbbbb
+aaaaaaaaaaaaa
+babababa

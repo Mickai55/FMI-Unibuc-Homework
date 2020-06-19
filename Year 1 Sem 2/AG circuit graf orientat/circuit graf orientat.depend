@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1552421588 source:e:\informatica\circuit graf orientat\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1552425188 source:e:\informatica\ag circuit graf orientat\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

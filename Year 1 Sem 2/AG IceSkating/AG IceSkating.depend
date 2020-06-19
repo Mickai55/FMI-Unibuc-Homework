@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1558563898 source:e:\informatica\ag iceskating\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
+

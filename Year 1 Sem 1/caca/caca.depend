@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1543245221 source:e:\informatica\caca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

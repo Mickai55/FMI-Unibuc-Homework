@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1541971695 source:e:\informatica\cuky\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

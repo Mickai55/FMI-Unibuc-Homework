@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <script>
+        x = [1, 2, 3, 5, 4, 6, 77];
+        var par = [], impar = [];
+        function functie(x, par, impar){
+            for(var i = 0; i < x.length; i++){
+                if (x[i] % 2 == 0)
+                    par.push(x[i]);
+                else
+                    impar.push(x[i]);
+            }
+        }
+
+        
+    </script>
+    </head>
+    <body>
+        <script>
+                functie(x, par, impar);
+                document.write(par + "<br>");
+                document.write(impar);
+        </script>
+
+
+    </body>
+</html>

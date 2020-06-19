@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1559035587 source:e:\informatica\colocviu poo 2019\main.cpp
+	<iostream>
+	<vector>
+	<typeinfo>
+	<string.h>
+	<algorithm>
+

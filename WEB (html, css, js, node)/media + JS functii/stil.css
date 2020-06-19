@@ -1,0 +1,25 @@
+html{
+	color:green;
+}
+
+#parinte{
+	height:500px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#copil{
+	display: inline-block;
+	height: 50px;
+	background-color: rgba(76, 0, 130, 0.199);
+	border-style: solid;
+	border-width: 1px;
+}
+
+@media screen and (max-width:500px){
+	#parinte{
+		border-width: 3px;
+		border-style: solid;
+		background-color: red;
+	}
+}

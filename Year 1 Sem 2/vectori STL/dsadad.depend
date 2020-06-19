@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552419028 source:e:\informatica\dsadad\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

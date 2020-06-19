@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552579882 source:e:\informatica\grafuri neorientate\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+

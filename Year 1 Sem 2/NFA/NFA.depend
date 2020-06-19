@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552323444 source:e:\informatica\nfa\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

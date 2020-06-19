@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title> 
+            culori
+        </title>
+
+        <style>
+            .c1{
+                transform: rotate(-20deg);
+                position: absolute;
+                top: 100px;
+                left: 100px;
+                background-color: red;
+                width: 200px;
+                height: 300px;
+                box-shadow: 10px 10px 8px grey;
+                transition: width 2s, height 2s, background-color 2s, transform 3s;
+            }
+            .c2{
+                position: absolute;
+                background-color: blue;
+                width: 200px;
+                height: 300px;
+                top: 80px;
+                left: 200px;
+                box-shadow: 10px 10px 8px grey;
+                transition: width 2s, height 2s, background-color 2s, transform 3s;
+            }
+            .c3{
+                transform: rotate(20deg);
+                position: absolute;
+                background-color: green;
+                width: 200px;
+                height: 300px;
+                top: 100px;
+                left: 300px;
+                box-shadow: 10px 10px 8px grey ;
+                transition: width 2s, height 2s, background-color 2s, transform 3s;
+            }
+
+            .c3:hover, .c2:hover, .c1:hover {
+                z-index: 1000;
+                width: 400px;
+                height: 600px;
+                background-color: yellow;
+                transform: rotate(0deg);
+            }
+
+            h1{
+                font-size: 50px;
+                text-shadow: 3px 3px red;
+            }
+
+        </style>
+
+    </head>
+
+    <body bgcolor="lightgrey">
+
+        <h1>Transformari, tranzitii, animatii</h1>
+
+        <div class="c1">
+            Hello1
+        </div>
+        <div class="c2">
+            Hello2
+        </div>
+        <div class="c3">
+            Hello3
+        </div>
+    </body>
+</html>

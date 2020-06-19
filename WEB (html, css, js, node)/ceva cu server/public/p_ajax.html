@@ -1,0 +1,41 @@
+<html>
+<head>
+
+	<style>
+            button {
+                background-color: rgb(255, 192, 203);
+            }
+            p{
+                display: inline;
+            }
+        </style>	
+
+	<script>
+        var date;
+		function loadDoc() {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {
+                date = JSON.parse(this.responseText);
+		        document.getElementById("intrebare").innerHTML = date.test[0].question;
+		        document.getElementById("dificultate").innerHTML = date.test[0].difficulty;
+		        document.getElementById("raspuns").innerHTML = date.test[0].answer;
+		    }
+		  };
+		  xhttp.open("GET", "intrebari.json", true);
+		  xhttp.send();
+		}
+	</script>
+</head>
+ 
+<body>
+
+	<h1>Test de verificare</h1>
+    <br>
+    <button type="button" onclick="loadDoc()">Intrebarea</button>
+    <button>Raspunsul</button>
+    <h4>Intrebarea: <p id="intrebare"></p></h4>
+    <h4>Dificultatea: <p id="dificultate"></p></h4>
+    <h4>Raspunsul: <p id="raspuns"></p></h4>
+</body>
+</html>

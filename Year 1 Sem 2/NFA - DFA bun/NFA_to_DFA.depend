@@ -1,0 +1,179 @@
+# depslib dependency file v1.0
+1524838965 source:c:\users\maria\onedrive\desktop\fmi\algoritmica grafurilor\laborator 5\nfa_to_dfa\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+	<set>
+	<utility>
+	<queue>
+	<AFN.h>
+	<AFD.h>
+
+1524838954 source:c:\users\maria\onedrive\desktop\fmi\algoritmica grafurilor\laborator 5\nfa_to_dfa\src\afn.cpp
+	"AFN.h"
+
+1524833777 c:\users\maria\onedrive\desktop\fmi\algoritmica grafurilor\laborator 5\nfa_to_dfa\include\afn.h
+	<iostream>
+	<cstring>
+	<string.h>
+	<set>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<AFD.h>
+
+1524838880 source:c:\users\maria\onedrive\desktop\fmi\algoritmica grafurilor\laborator 5\nfa_to_dfa\src\afd.cpp
+	"AFD.h"
+
+1524838893 c:\users\maria\onedrive\desktop\fmi\algoritmica grafurilor\laborator 5\nfa_to_dfa\include\afd.h
+	<iostream>
+	<string.h>
+	<vector>
+	<iterator>
+
+1555866533 source:c:\users\mihai\desktop\nfa_to_dfa-master\nfa_to_dfa\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+	<set>
+	<utility>
+	<queue>
+	<AFN.h>
+	<AFD.h>
+
+1555867106 c:\users\mihai\desktop\nfa_to_dfa-master\nfa_to_dfa\include\afn.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<set>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<AFD.h>
+
+1555879411 c:\users\mihai\desktop\nfa_to_dfa-master\nfa_to_dfa\include\afd.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<iterator>
+
+1555955566 source:c:\users\mihai\desktop\nfa_to_dfa-master\nfa_to_dfa\src\afd.cpp
+	"AFD.h"
+
+1555956844 source:c:\users\mihai\desktop\nfa_to_dfa-master\nfa_to_dfa\src\afn.cpp
+	"AFN.h"
+
+1555866534 source:f:\_\nfa - dfa\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+	<set>
+	<utility>
+	<queue>
+	<AFN.h>
+	<AFD.h>
+
+1555867108 f:\_\nfa - dfa\include\afn.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<set>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<AFD.h>
+
+1555879412 f:\_\nfa - dfa\include\afd.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<iterator>
+
+1555955568 source:f:\_\nfa - dfa\src\afd.cpp
+	"AFD.h"
+
+1555956846 source:f:\_\nfa - dfa\src\afn.cpp
+	"AFN.h"
+
+1555866534 source:c:\users\mihai\desktop\nfa - dfa\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+	<set>
+	<utility>
+	<queue>
+	<AFN.h>
+	<AFD.h>
+
+1555867108 c:\users\mihai\desktop\nfa - dfa\include\afn.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<set>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<AFD.h>
+
+1555879412 c:\users\mihai\desktop\nfa - dfa\include\afd.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<iterator>
+
+1555955568 source:c:\users\mihai\desktop\nfa - dfa\src\afd.cpp
+	"AFD.h"
+
+1556011172 source:c:\users\mihai\desktop\nfa - dfa\src\afn.cpp
+	"AFN.h"
+
+1555866534 source:e:\informatica\nfa - dfa bun\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+	<set>
+	<utility>
+	<queue>
+	<AFN.h>
+	<AFD.h>
+
+1555867108 e:\informatica\nfa - dfa bun\include\afn.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string.h>
+	<set>
+	<vector>
+	<iterator>
+	<math.h>
+	<queue>
+	<AFD.h>
+
+1555879412 e:\informatica\nfa - dfa bun\include\afd.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<vector>
+	<iterator>
+
+1555955568 source:e:\informatica\nfa - dfa bun\src\afd.cpp
+	"AFD.h"
+
+1556011172 source:e:\informatica\nfa - dfa bun\src\afn.cpp
+	"AFN.h"
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558366969 source:e:\informatica\paduri de multimi disjuncte\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

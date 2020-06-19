@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558377361 source:e:\informatica\alee\main.cpp
+	<queue>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1551910652 source:e:\informatica\bst altu\main.cpp
+	<iostream>
+	<fstream>
+

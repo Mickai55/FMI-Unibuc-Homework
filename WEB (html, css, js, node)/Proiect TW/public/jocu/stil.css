@@ -1,0 +1,9 @@
+#preia_date {
+    visibility: hidden;
+}
+button {
+    visibility: visible;
+    position: relative;
+    top: 470px;
+    left: 20px;
+}

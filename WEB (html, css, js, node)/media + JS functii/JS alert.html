@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="repeta()">Click me!</button>
+
+<p id="demo"></p>
+
+<script>
+
+    var dictionar = {"acesta":"this", "este":"is", "un":"a"}
+    var traducere;
+    function myFunction() {
+
+        var cuvant = prompt("Introduceti un cuvant:", "pls");
+        for (x in dictionar)
+            if (x == cuvant){ 
+            traducere=dictionar[x];
+            break;
+            }
+        
+        if(traducere)
+            alert("Traducerea lui " + cuvant + " este " + dictionar[x]);
+        else
+            alert("Nu exista");
+    }
+
+    function repeta() {
+        do{
+            myFunction();
+            var r = confirm("Cautati alt cuvant?");
+        }while(r);
+    }
+</script>
+
+</body>
+</html>

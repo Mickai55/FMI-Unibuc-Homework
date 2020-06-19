@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558985287 source:e:\informatica\test poo 2014\main.cpp
+	<iostream>
+	<vector>
+	<ctime>
+
